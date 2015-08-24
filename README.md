@@ -1,6 +1,6 @@
 # Socket.io/HTTPS 2 servers example
 
-Connexion example between two https servers using socket.io and checking authority certificates.
+Connexion example between two https servers using socket.io checking authority certificates.
 
 
 # Install

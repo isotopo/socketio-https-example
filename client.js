@@ -22,7 +22,7 @@ socket.on('connect', function() {
 socket.emit('ping', Date.now());
 
 socket.on('pong', function(data) {
-	console.log('Pong: %s',data);
+	console.log('Pong: %s', data);
 	socket.emit('ping', Date.now());
 });
 
